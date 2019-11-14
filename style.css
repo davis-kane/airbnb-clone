@@ -73,9 +73,6 @@ input[type=submit] {
     cursor: pointer;
   }
   
-input[type=submit]:hover {
-    background-color: #45a049;
-  }
   
 .book-now-form {
     border-radius: 5px;
