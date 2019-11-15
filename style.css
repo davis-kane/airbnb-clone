@@ -364,6 +364,7 @@ textarea {
   padding: 0.2em 0;
 }
 
+/* ### Colors */
 :root {
   --primary:rgb(72, 72, 72);
   --accent: rgb(255, 90, 95);
@@ -374,11 +375,6 @@ textarea {
           box-sizing: border-box;
 }
 
-body {
-  font-family: 'Montserrat', sans-serif;
-  line-height: 1.4;
-}
-
 h3 {
   text-transform: uppercase;
   font-size: .8rem;
@@ -386,12 +382,9 @@ h3 {
 }
 
 .hero-image {
-  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.3))), url("img/hero.jpg");
   background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url("img/hero.jpg");
-  /* Set a specific height */
   height: 100vh;
-  /* Position and center the image to scale nicely on all screens */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -400,12 +393,12 @@ h3 {
 
 .book-now {
   position: absolute;
-  height: 525px;
+  height: 540px;
   width: 450px;
   padding: 2rem;
   top: 150px;
   left: 100px;
-  color: var(--primary);
+  color: #484848;
   background: #fff;
   border-radius: 5px;
 }
@@ -440,5 +433,9 @@ input[type=submit] {
 .book-now-form {
   border-radius: 5px;
   padding: 20px 0 20px 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
 }
 /*# sourceMappingURL=style.css.map */
