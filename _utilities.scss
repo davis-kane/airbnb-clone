@@ -1,11 +1,30 @@
-// Variables
+/* Global Styling */
 
-/* ### Colors */
+// Defaults
 
-$primary:  rgb(72, 72, 72);
-$accent:   rgb(255, 90, 95);
-$dark:    #232c39;
-$gray:    #647585;
+:root {
+  --primary: rgb(72, 72, 72);
+  --accent: rgb(255, 90, 95);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-size: .8rem;
+  font-weight: 800;
+}
+
+// Colors
+
+$primary: rgb(72, 72, 72);
+$accent: rgb(255, 90, 95);
 
 
 // Fonts

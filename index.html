@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,38 +8,44 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
 
-    
+
     <title>Air BnB</title>
 </head>
+
 <body>
-   
-        <!-- Background -->
-        <div class="hero-image">
-            <div class="book-now">
-                <h1>Book unique places to stay and things to do.</h1>
-                <div class="book-now-form">
-                    <form action="/action_page.php">
-                        
-                        <label for="Guests">Guests</label>
-                        <select id="guests" name="guests">
+
+    <!-- Background -->
+    <div class="hero-image">
+        <div class="book-now">
+            <h1>Book unique places to stay and things to do.</h1>
+            <div class="book-now-form">
+                <form action="/action_page.php">
+                    <h3>Where</h3>
+                    <input type="text" name="where" id="where"><br>
+                    <h3>Check-in</h3>
+                    <input type="date" name="date" id="check-in">
+                    <h3>Check-out</h3>
+                    <input type="date" name="date" id="check-out">
+                    <h3>Guests</h3>
+                    <select id="guests" name="guests">
                         <option value="one">One</option>
                         <option value="two">Two</option>
                         <option value="three">Three</option>
                         <option value="four">Four</option>
-                        </select>
-                    
-                        <input type="submit" value="Submit">
-                    </form>
-                </div>
-                    
-                </div>
+                    </select>
+                    <input type="submit" value="Submit">
+                </form>
             </div>
+            
 
-            </div>
         </div>
+    </div>
 
-        <!-- Navigation -->
-        <!-- <nav class="main-nav">
+    </div>
+    </div>
+
+    <!-- Navigation -->
+    <!-- <nav class="main-nav">
             <ul>
                 <li><a href="#">English</a></li>
                 <li><a href="#">$USD</a></li>
@@ -49,8 +56,8 @@
             </ul>
         </nav> -->
 
-        <!-- Book -->
-        <!-- <section class="book">
+    <!-- Book -->
+    <!-- <section class="book">
             <div class="book-container">
                 <h1>Book unique places to stay and things to do</h1>
                 <h3>Where</h3>
@@ -64,6 +71,7 @@
         </section> -->
 
     </div>
-  
+
 </body>
+
 </html>
